@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "enable": true,
+      "name": "ZdyProxy",
+      "address": [
+        "wss://47.56.85.233:5201/ds?skip_verify=1",
+        "wss://47.56.85.233:5202/ds?skip_verify=1",
+        "wss://47.56.85.233:5203/ds?skip_verify=1",
+        "wss://47.56.85.233:5204/ds?skip_verify=1",
+        "wss://47.56.85.233:5205/ds?skip_verify=1",
+        "wss://47.56.85.233:5206/ds?skip_verify=1",
+        "wss://47.56.85.233:5207/ds?skip_verify=1",
+        "wss://47.56.85.233:5208/ds?skip_verify=1"
+      ],
+      "username": "cny",
+      "password": "scorpion"
+    }
+  ],
+  "socks_addr": "0.0.0.0:1105",
+  "http_addr": "0.0.0.0:1103",
+  "manager_addr": "127.0.0.1:1101",
+  "mode": "auto",
+  "log": 40,
+  "work_dir": "."
+}
